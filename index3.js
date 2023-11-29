@@ -25,7 +25,7 @@
 
 // iterating and array 
 
-let arr=[10,49,24,'rohit',45,34,32,];
+// let arr=[10,49,24,'rohit',45,34,32,];
 // for(let value of arr){
 //     console.log(value);
 // }
@@ -66,4 +66,14 @@ let arr=[10,49,24,'rohit',45,34,32,];
 
 
 
+// let brr=[12,4,5,3,4,'rohit'];
+// for (const value of brr){
+//     if(typeof value!=='number'){
+//         continue;
+//         } else{
+//             console.log(value);
+//             }
+//             }
     
+
+// arr.forEach(number=>console.log(number*2));
