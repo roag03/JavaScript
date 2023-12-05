@@ -77,3 +77,11 @@
     
 
 // arr.forEach(number=>console.log(number*2));
+
+// let number=[12,34,43,54,45];
+// const joined=number.join(',');
+// console.log(joined);
+
+let message='this message ko split kar do';
+let parts=message.split(' ');
+console.log(parts);
