@@ -35,10 +35,28 @@
         
     //     },
     //     set fulName(value){
+    //         if(typeof value != String){
+    //             throw new Error("You have not sent a string");
+    //         }
     //         let parts=value.split(' ');
     //         this.fName=parts[0];
     //         this.lName=parts[1];
     //     }
     // };
-    //     person.fulName="Rohit agrahari"
-    // console.log(person.fulName)
+    //     // person.fulName="Rohit agrahari"
+        
+        // try{
+        //     person.fulName=false;
+        // }
+        // catch(e){
+        //     alert(e);
+        // }
+
+
+        // console.log(person.fulName)
+
+                    // SCOPE PADHANE JAA RAHE HAI 
+{var a=5};
+    
+    console.log(a);
+
