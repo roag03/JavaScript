@@ -51,3 +51,23 @@
 //     console.log(count);
 // }
 
+// let arr=["rohit","Anant","yash"]
+// arr.forEach((val,idx,arr)=>{
+//     console.log(val.toUpperCase(),idx,arr)
+// })
+let n=prompt("enter the value")
+let arr=[];
+for(let i=1;i<=n;i++){
+    arr[i-1]=i;
+}
+console.log(arr);
+let sum=arr.reduce((prev,current)=>{
+    return prev+current;
+})
+console.log(sum);
+
+
+let fac=arr.reduce((prev,current)=>{
+    return prev*current;
+})
+console.log("factorial",fac);
