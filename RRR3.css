@@ -1,0 +1,20 @@
+/* #heading{
+    background-color: purple;
+}
+body{
+    background-color:pink ;
+}
+button{
+    color: blue;
+}
+.ClassName{
+color: red;
+} */
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    margin: 5px;
+    text-align: center;
+    background-color: blue;
+}
